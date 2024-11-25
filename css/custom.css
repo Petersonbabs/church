@@ -2464,6 +2464,18 @@ header.main-header .header-sticky.active{
 	margin-top: -118px;
 }
 
+.page-header.gallery{
+	background: url('../images/gallery-1\ \(3\).JPG');
+	background-position: center center;
+	background-size: cover;
+}
+
+.page-header.contact{
+	background: url('../images/contact-us.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
 .page-header::before{
 	content: '';
     position: absolute;
@@ -4417,6 +4429,12 @@ header.main-header .header-sticky.active{
 
 .page-contact-us{
 	padding: 100px 0;
+}
+
+.page-contact-us .con{
+	width: 90vw;
+	margin: auto;
+	max-width: 1140px;
 }
 
 .contact-information{
