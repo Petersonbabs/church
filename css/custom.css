@@ -497,7 +497,18 @@ header.main-header .header-sticky.active{
 	margin: 0;
 	font-size: 2rem;
 	color: #fff;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
 }
+
+.navbar-brand img{
+	width: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+	height: 100%;
+}
+
 .navbar-brand span{
 	color: var(--accent-color);
 }
@@ -1669,6 +1680,7 @@ header.main-header .header-sticky.active{
 
 .sermons-image{
 	position: relative;
+	
 }
 
 .sermons-image a{
@@ -1676,11 +1688,16 @@ header.main-header .header-sticky.active{
 	cursor: none;
 }
 
-.sermons-image figure a img{
+.sermons-image figure img{
 	width: 100%;
 	aspect-ratio: 1 / 0.72;
 	object-fit: cover;
+	height: 250px !important;
 	transition: all 0.5s ease-in-out;
+}
+
+.sermons-image .sermons-audio-icon{
+	display: none;
 }
 
 .sermons-item:hover .sermons-image figure a img{
