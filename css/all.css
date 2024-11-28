@@ -18,12 +18,12 @@
 }
 
 body{
-  font-family: montserrat;
+  font-family: montserrat !important;
   /* font-family: montserrat; */
 }
 
 h1, h2, h3, h4{
-  font-family: serif;
+  font-family: cormorant !important;
 }
 
 
